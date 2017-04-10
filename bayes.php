@@ -2,7 +2,7 @@
 include_once "helper/database.php";
 session_start();
 
-//tata ancok
+
 if(@$_POST['pilih_gejala']){
 	$pilih_gejala = @$_POST['pilih_gejala'];
 	$jumlah = count($pilih_gejala);
